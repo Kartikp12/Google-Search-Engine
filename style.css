@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+section{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.query{
+    width: 400px;
+    height: 6vh;
+    font-size: larger;
+    border-radius: 10px ;
+}
+
+.searchbtn{
+   border-radius: 10px;
+   background-color: bisque;
+   cursor: pointer;
+    height: 6vh;
+    font-size: larger;
+}
+
+.main img{
+    width: 400px;
+}
